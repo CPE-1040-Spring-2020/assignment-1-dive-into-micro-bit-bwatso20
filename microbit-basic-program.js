@@ -1,0 +1,2 @@
+12345678910111213141516192021222317182425
+let iconHeart: boolean = truebasic.forever(function () {    if (iconHeart == true) {        basic.showIcon(IconNames.Heart)        basic.pause(100)        basic.clearScreen()        basic.pause(100)    }    else {        basic.showIcon(IconNames.Butterfly)        basic.pause(100)        basic.clearScreen()     }    input.onButtonPressed(Button.A, function () {        if (iconHeart == true) {        else iconHeart = true    })})
